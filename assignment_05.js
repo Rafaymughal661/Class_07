@@ -32,3 +32,35 @@ let updatedArray5 = array3.filter((fruits) => {
     }
 });
 console.log(updatedArray5);
+// Q: Given an array of numbers [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], use the map and filter methods together to create a new array containing the squares of even numbers.
+let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let updatedArray6 = num.filter((num) => {
+    if (num % 2 === 0) {
+        return num;
+    }
+}).map((num) => {
+    return (num ** 2);
+});
+console.log(updatedArray6);
+// Q: Given an array of temperatures in Celsius [0, 10, 20, 30, 40], use the map method to create a new array where each temperature is converted to Fahrenheit using the formula (Celsius * 9/5) + 32.
+let temp = [0, 10, 20, 30, 40];
+let updatedArray7 = temp.map((Celsius_to_fahrenheit) => {
+    return (Celsius_to_fahrenheit * 9 / 5) + 32;
+});
+console.log(updatedArray7);
+// Q: Given an array of numbers [3, 6, 9, 12, 15, 18], use the map and filter methods together to create a new array containing the doubled values of odd numbers.
+let array_of_num = [3, 6, 9, 12, 15, 18];
+let updatedArray8 = array_of_num.filter((odd_num) => {
+    if (odd_num % 2 != 0) {
+        return odd_num;
+    }
+}).map((odd_num) => {
+    return odd_num * 2;
+});
+console.log(updatedArray8);
+// Q: Given an array of names ["Alice", "Bob", "Charlie", "David", "Emily"], use the forEach method to log each name with an exclamation mark at the end, e.g., "Alice!".
+let array_of_names = ["Alice", "Bob", "Charlie", "David", "Emily"];
+let updatedArray9 = array_of_names.forEach((name) => {
+    console.log(`${name}! `);
+});
+console.log(updatedArray9);
