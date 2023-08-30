@@ -39,6 +39,7 @@ let updatedArray5 = array3.filter((fruits)=>{
 })
 console.log(updatedArray5);
 
+
 // Q: Given an array of numbers [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], use the map and filter methods together to create a new array containing the squares of even numbers.
 let num:number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let updatedArray6 = num.filter((num)=>{
@@ -79,27 +80,6 @@ let updatedArray9 = array_of_names.forEach((name)=>{
     
 })
 console.log(updatedArray9);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
